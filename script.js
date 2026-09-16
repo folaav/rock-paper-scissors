@@ -35,7 +35,7 @@ function playGame() {
         }
         else if (computerChoice === 'rock' && humanChoice === 'paper') {
             console.log('You win! Paper beats rock.');
-            return humanScore++;
+            return humanScore++; //Can also use humanScore += 1 here
         }
         else if (computerChoice === 'paper' && humanChoice === 'scissors') {
             console.log('You win! Scissors beats paper.');
