@@ -70,17 +70,17 @@ playGame();
 playGame();
 
 
-    function overallScore() {
-        console.log(`Your score is ${humanScore}`);
-        console.log(`Computer score is ${computerScore}`);
-    
-        if (humanScore > computerScore) {
-            console.log('You have won this game. A win for the humans!');
-        }
-        else {
-            console.log('The computer has won this game!')
-        }
-        return;
-    }
+function overallScore() {
+    console.log(`Your score is ${humanScore}`);
+    console.log(`Computer score is ${computerScore}`);
 
-    overallScore();
+    if (humanScore > computerScore) {
+        console.log('You have won this game. A win for the humans!');
+    }
+    else {
+        console.log('The computer has won this game!')
+    }
+    return;
+}
+
+overallScore();
